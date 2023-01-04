@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 """Defines a Rectangle class."""
 
 
@@ -65,7 +65,7 @@ class Rectangle:
 
         rect = []
         for i in range(self.__height):
-            [rect.append(#) for j in range(self.__width)]
+            [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
@@ -79,4 +79,4 @@ class Rectangle:
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
-        print("Bye rectangle...") 
+        print("Bye rectangle...")
